@@ -7,8 +7,8 @@ def fibonacci(x):
         return []
     elif x == 1:
         return [1]
-    elif x == 2:
-        return [1, 2]
+    # elif x == 2:
+    #     return [1, 2]
 
     fib_list = [1, 2]
     while len(fib_list) < x:
@@ -19,4 +19,4 @@ def fibonacci(x):
 
 print(fibonacci(5))
 
-    
+  #my pair is vanessa Nalugya  
